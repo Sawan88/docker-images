@@ -9,35 +9,37 @@ Redis web management tool written in node.js
 
 # Image reason
 
-No special any reason. This just our infrastructure image.
+This is an image of Redis-commander with an additional option that allows you to set the color of the web interface when starting the container
 
 # Spec
 
 ## Environment variables
 
-No any variables
+set the option color:
+--env REDIS_COMMANDER_BG_COLOR=#......
 
 ## Expose ports
 
-* `tcp/39000` - redis-commander listening endpoint
+* `tcp/8081` - redis-commander listening endpoint
 
 ## Volumes
 
-* `/docker-images` - Root of the redis-commander repositories
+* No any volumes
 
 # Inside
 
-* redis-commander/redis-commander:19cd0c49f418
+* redis-commander/redis-commander:latest
+DIGEST:sha256:19cd0c49f418779fa2822a0496c5e6516d0c792effc39ed20089e6268477e40a
 
 # Launch
 
 ```shell
 build
-docker build --tag rediscommander/redis-commander --file docker/Dockerfile .
+docker build --tag redis-commander --file docker/Dockerfile .
 ```
 
 ```shell
-docker run --rm -it --env REDIS_COMMANDER_BG_COLOR=#fff000 \
+docker run --rm -it --env REDIS_COMMANDER_BG_COLOR=#ffffff \
 --publish 39000:8081 redis-commander
 ```
 

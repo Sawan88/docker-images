@@ -5,7 +5,5 @@ USER root
 RUN apk add --no-cache sudo
 COPY docker/docker-entrypoint.sh /usr/local/bin/docker-entrypoint-redis-commander.sh
 
-USER redis
-
+ENV REDIS_COMMANDER_BG_COLOR=
 ENTRYPOINT ["/usr/local/bin/docker-entrypoint-redis-commander.sh"]
-
