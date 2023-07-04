@@ -71,4 +71,4 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
           repository: ${{ secrets.DOCKERHUB_USERNAME }}/redis-commander
-          short-description: "Apache is a software versioning and revision control system distributed as open source under the Apache License."
+          short-description: "Redis-commander the most advanced Open Source database"

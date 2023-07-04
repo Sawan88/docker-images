@@ -1,7 +1,7 @@
-[![Docker Image Version](https://img.shields.io/docker/v/sergii.ivanov/redis-commander?sort=date&label=Version)](https://hub.docker.com/r/sergii.ivanov/redis-commander/tags)
-[![Docker Image Size](https://img.shields.io/docker/image-size/sergii.ivanov/redis-commander?label=Image%20Size)](https://hub.docker.com/r/sergii.ivanov/redis-commander/tags)
-[![Docker Pulls](https://img.shields.io/docker/pulls/sergii.ivanov/redis-commander?label=Pulls)](https://hub.docker.com/r/sergii.ivanov/redis-commander)
-[![Docker Stars](https://img.shields.io/docker/stars/sergii.ivanov/redis-commander?label=Docker%20Stars)](https://hub.docker.com/r/sergii.ivanov/redis-commander)
+[![Docker Image Version](https://img.shields.io/docker/v/theanurin/redis-commander?sort=date&label=Version)](https://hub.docker.com/r/theanurin/redis-commander/tags)
+[![Docker Image Size](https://img.shields.io/docker/image-size/theanurin/redis-commander?label=Image%20Size)](https://hub.docker.com/r/theanurin/redis-commander/tags)
+[![Docker Pulls](https://img.shields.io/docker/pulls/theanurin/redis-commander?label=Pulls)](https://hub.docker.com/r/theanurin/redis-commander)
+[![Docker Stars](https://img.shields.io/docker/stars/theanurin/redis-commander?label=Docker%20Stars)](https://hub.docker.com/r/theanurin/redis-commander)
 
 # Redis Commander
 
