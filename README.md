@@ -32,15 +32,11 @@ REDIS_COMMANDER_BG_COLOR - Set background color for web interface Redis Commande
 # Launch
 
 ```shell
-build
-docker build --tag redis-commander --file docker/Dockerfile .
-```
-
-```shell
 docker run --rm -it --env REDIS_COMMANDER_BG_COLOR=#ffffff \
---publish 39000:8081 redis-commander
+--publish 39000:8081 theanurin/redis-commander
 ```
 
 # Support
 
-* Maintained by: [Sergii.Ivanov](https://---.name/)
+* Maintained by: [Max Anurin](https://anurin.name/)
+* Where to get help: [Telegram](https://t.me/theanurin)

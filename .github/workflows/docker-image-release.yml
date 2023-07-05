@@ -71,4 +71,4 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
           repository: ${{ secrets.DOCKERHUB_USERNAME }}/redis-commander
-          short-description: "Redis-commander the most advanced Open Source database"
+          short-description: "Is the administration and development platform for Redis Commander"
