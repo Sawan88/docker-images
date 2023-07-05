@@ -9,17 +9,17 @@ Redis web management tool written in node.js
 
 # Image reason
 
-This is an image of Redis-commander with an additional option that allows you to set the color of the web interface when starting the container
+This is an image of Redis Commander with an additional option that allows you to set the color of the web interface when starting the container
 
 # Spec
 
 ## Environment variables
 
-REDIS_COMMANDER_BG_COLOR - Set color for web interface redis commander. Default /web/static/css/default. (You can change the color)
+REDIS_COMMANDER_BG_COLOR - Set background color for web interface Redis Commander (inject color into `css/default.css`)
 
 ## Expose ports
 
-* `tcp/8081` - redis-commander listening endpoint
+* `tcp/8081` - Redis Commander listening endpoint
 
 ## Volumes
 
@@ -27,7 +27,8 @@ REDIS_COMMANDER_BG_COLOR - Set color for web interface redis commander. Default 
 
 # Inside
 
-* Redis-commander 0.7.2-rc3
+* Redis Commander 0.7.2-rc3
+
 # Launch
 
 ```shell
