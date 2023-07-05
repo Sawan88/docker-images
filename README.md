@@ -15,8 +15,7 @@ This is an image of Redis-commander with an additional option that allows you to
 
 ## Environment variables
 
-set the option color:
---env REDIS_COMMANDER_BG_COLOR=#......
+REDIS_COMMANDER_BG_COLOR - Set color for web interface redis commander. Default /web/static/css/default. (You can change the color)
 
 ## Expose ports
 
