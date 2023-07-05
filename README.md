@@ -28,9 +28,7 @@ set the option color:
 
 # Inside
 
-* redis-commander/redis-commander:latest
-DIGEST:sha256:19cd0c49f418779fa2822a0496c5e6516d0c792effc39ed20089e6268477e40a
-
+* Redis-commander 0.7.2-rc3
 # Launch
 
 ```shell
