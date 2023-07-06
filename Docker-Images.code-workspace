@@ -46,6 +46,9 @@
 			"path": "subversion"
 		},
 		{
+			"path": "traefik"
+		},
+		{
 			"name": "workspace",
 			"path": "."
 		},

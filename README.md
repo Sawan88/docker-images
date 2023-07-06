@@ -23,6 +23,7 @@ This is workspace branch of Docker Images multi project repository based on [orp
 | [sqlmigrationrunner-postgres](../../tree/sqlmigrationrunner-postgres)  | Database Migration Manager runner for PostgreSQL (moving to `sqlmigrationrunner`).                                                   |
 | [sqlrunner](../../tree/sqlrunner)                                      | Provide ability to run series of SQL scripts against various databases like MSSQL, MySQL, PostgreSQL, SQLite, etc.                   |
 | [subversion](../../tree/subversion)                                    | Apache Subversion is a software versioning and revision control system.                                                              |
+| [traefik](../../tree/traefik)                                          | Traefik (pronounced traffic) is a modern HTTP reverse proxy and load balancer that makes deploying microservices easy.               |
 
 ## Get Started
 

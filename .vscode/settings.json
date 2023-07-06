@@ -34,6 +34,7 @@
 		"**/sqlmigrationbuilder": true,
 		"**/sqlmigrationrunner": true,
 		"**/sqlmigrationrunner-postgres": true,
+		"**/traefik": true,
 	},
 	"markdownlint.config": {
 		"MD031": {
